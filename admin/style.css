@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+body {
+  font-family: 'Karla';
+  background-color: #D1BDA8;
+  height: auto;
+}
+#left-bar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 240px;
+  height: 100%;
+  background-color: #404B4A;
+  border: 1px solid #404B4A;
+  /*border-top-right-radius: 12px;*/
+  border-bottom-right-radius: 16px;
+}
+#left-bar h2 {
+  font-family: 'Dancing Script';
+  font-size: 36px;
+  margin-top: 17px;
+  text-align: center;
+}
+#left-bar h3 {
+  margin-top: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+#left-bar a:first-of-type {
+  margin-top: 35px;
+}
+#left-bar a:last-of-type {
+  position: absolute;
+  bottom: 18px;
+}
+#left-bar a {
+  max-width: 120px;
+  display: block;
+  margin-top: 15px;
+  margin-left: 16px;
+  padding: 10px 0 10px 8px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #EEEEEE;
+  border-left: 3px solid #D1BDA8;
+  transition: 0.2s;
+}
+#left-bar a:hover {
+  color: #D1BDA8;
+  /*border-left: 3.5px solid #D1BDA8;*/
+  padding-left: 12px;
+}
+p.counter {
+	margin-left: 300px;
+	font-size: 36px;
+}
+
+/* booked.php */
+.container_booked, .container_rooms {
+	max-width: 950px;
+	margin-left: 270px;
+	margin-top: 35px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: left;
+}
+.responsive-table li, .responsive-table-rooms li {
+	border-radius: 5px;
+	padding: 15px;
+	display: flex;
+	margin-bottom: 16px;
+}
+.table-header {
+	background-color: #52605F;
+	color: #EEEEEE;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+.table-row {
+	background-color: #F2F2F2;
+	box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+	font-size: 18px;
+}
+.space1 {
+	width: 5%;
+}
+.space {
+	width: 19%;
+	padding-right: 10px;
+}
+#myInput {
+	width: 250px;
+	margin-left: 280px;
+	margin-top: 35px;
+	padding: 10px 0 10px 12px;
+	text-align: left;
+	font-size: 16px;
+	background-color: #F2F2F2;
+	border: 2px solid #52605F;
+	border-radius: 5px;
+}
+#myInput:focus {
+	outline: none;
+}
+
+/* rooms.php */
+.container_rooms {
+	max-width: 690px;
+	margin-left: 280px;
+	margin-top: 25px;
+	padding: 0;
+}
+.responsive-table-rooms li {
+	padding: 14px;
+	margin-bottom: 12px;
+}
+.space2 {
+	width: 31%;
+}
+.space3 {
+	width: 7%;
+}
+.available_color {
+	width: 78px;
+	padding: 2px 6px;
+	border-radius: 5px;
+	background-color: #3BC45F;
+	color: white;
+	font-weight: 600;
+}
