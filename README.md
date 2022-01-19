@@ -1,5 +1,5 @@
 <h1 align="center">Hotel Booking and Management 🖥️</h1>
-<h2 align="center">Web application for room reservation and hotel room management<h3>
+<p align="center">Web application for room reservation and hotel room management<p>
 
 ![image](/img/screen_home.png)
 
