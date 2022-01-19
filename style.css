@@ -54,9 +54,9 @@ a.book:hover {
 }
 .available {
   position: absolute;
-  top: 410px;
+  bottom: 50px;
   width: 80%;
-  margin-left: 9%;
+  left: 10%;
   padding: 30px 0;
   background-color: #EEEEEE;
   border-radius: 8px;
