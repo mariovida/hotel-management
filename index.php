@@ -23,7 +23,7 @@
 <style>
   .image {
     width: 100%;
-    height: 580px;
+    height: 100vh;
     background: url("img/hotel2c.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
