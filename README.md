@@ -31,6 +31,8 @@ Password: admin123
 
 ## Showcase
 ![image](/img/show2.png)
+![image](/img/show3.png)
+![image](/img/show4.png)
 
 
 ## Show your support
