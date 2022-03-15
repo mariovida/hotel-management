@@ -29,5 +29,9 @@ Password: admin123
 ![image](/img/screen_login.png)
 
 
+## Showcase
+![image](/img/show2.png)
+
+
 ## Show your support
 Give a ⭐️ if this project helped you!
